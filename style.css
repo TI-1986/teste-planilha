@@ -2,26 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  #header {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--body-color-second);
-  
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1920px;
-    height: 3rem;
-    padding: 2.5rem;
-    gap: 1.5rem;
-    margin: 0rem 5rem;
-  }
-.link{
-    margin:2% 0 0 5%;
 }
 
   a {
@@ -30,10 +10,7 @@
 
   }
 
-  .af{
-    margin:2% 0 0 17%;
-    
-  }
+  
 
   footer {
     position: absolute;
