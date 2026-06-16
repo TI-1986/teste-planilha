@@ -6,8 +6,8 @@
     
     <title>Entregas</title>
      <style>
-           body {
-           /* */
+          
+           /* 
             background-image: url('assets/copa.png');
             background-size: cover;
             background-position: center;
@@ -20,9 +20,37 @@
              width: 1080px;
             height: 90px;
          }
-        
+        Fundo principal com gradiente Brasil + União Europeia */
+  background: linear-gradient(135deg,
+    #009739 25%,   /* Verde Brasil */
+    #FFDF00 25%,   /* Amarelo Brasil */
+    #FFDF00 50%,   
+    #002776 50%,   /* Azul Brasil */
+    #002776 75%,   
+    #003399 75%,   /* Azul União Europeia */
+    #FFD700 100%   /* Amarelo estrelas UE */
+  );
+
+  /* Inserindo imagens sobrepostas */
+  background-image: 
+    url('assets/copa_taca.webp'),       /* Taça da Copa */
+    url('assets/bola_futebol.png'),    /* Bola de futebol */
+    url('assets/grama.png'),           /* Grama */
+    url('assets/bandeira_brasil.png'); /* Bandeira do Brasil */
+
+  /* Ajustes de repetição e posição */
+  background-repeat: no-repeat, repeat, repeat, no-repeat;
+  background-position: center top, left bottom, center bottom, right top;
+  background-size: 200px, 100px, cover, 150px;
+
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
     </style>
+    
 </head>
+    
 <body>
     <!--<p>404 - esta pagina esta temporariamente fora do ar!</p> </br>
                     <p>contato - 1601</p>--> 
